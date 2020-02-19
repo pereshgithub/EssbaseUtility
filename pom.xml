@@ -19,7 +19,7 @@
 		<java.version>1.8</java.version>
 		
 		<appengine.target.version>1.9.78</appengine.target.version>
-    	<appengine-maven-plugin-version>1.3.2</appengine-maven-plugin-version>
+    	<!-- <appengine-maven-plugin-version>1.3.2</appengine-maven-plugin-version> -->
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
@@ -181,11 +181,11 @@
 				</configuration>
 			
 			</plugin>
-			<!--   <plugin>
+			  <plugin>
 			        <groupId>com.google.cloud.tools</groupId>
 			        <artifactId>appengine-maven-plugin</artifactId>
 			       <version>${appengine-maven-plugin-version}</version> 
-     		 </plugin> -->
+     		 </plugin>
 		</plugins>
 		<finalName>essbase_rest_utility_v1</finalName>
 	</build>
