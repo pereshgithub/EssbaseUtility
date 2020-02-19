@@ -192,6 +192,10 @@
 			        <groupId>com.google.cloud.tools</groupId>
 			    	<artifactId>appengine-maven-plugin</artifactId>
 			    	<version>2.1.0</version>
+			    	<configuration>
+				    <deploy.projectId>GCLOUD_CONFIG</deploy.projectId>
+				    
+  </configuration>
      		 </plugin>
 		</plugins>
 		<finalName>essbase_rest_utility_v1</finalName>
